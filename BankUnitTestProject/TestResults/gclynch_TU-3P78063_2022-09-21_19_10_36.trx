@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="97075344-2e64-471c-b737-ea2e80047439" name="gclynch@TU-3P78063 2022-09-21 19:10:36" runUser="STF\gclynch" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-09-21T19:10:36.4226081+01:00" queuing="2022-09-21T19:10:36.4226083+01:00" start="2022-09-21T19:10:35.8247251+01:00" finish="2022-09-21T19:10:36.4293339+01:00" />
+  <TestSettings name="default" id="7f53d9b5-5848-4145-9219-241296ae81cb">
+    <Deployment runDeploymentRoot="gclynch_TU-3P78063_2022-09-21_19_10_36" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a8bcb630-5bf6-49ce-bec6-f1103bddbd82" testId="88258410-e682-4e09-b089-cccc51a8a7cf" testName="TestDepositAndWithdrawal3" computerName="TU-3P78063" duration="00:00:00.0002826" startTime="2022-09-21T19:10:36.3150597+01:00" endTime="2022-09-21T19:10:36.3153949+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8bcb630-5bf6-49ce-bec6-f1103bddbd82" />
+    <UnitTestResult executionId="e5972215-7b24-48f4-a81b-1af38a9b3a3b" testId="441bc83d-0edb-446a-b897-c38c87f33a16" testName="TestDeposit1" computerName="TU-3P78063" duration="00:00:00.0042160" startTime="2022-09-21T19:10:36.2915269+01:00" endTime="2022-09-21T19:10:36.3076353+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5972215-7b24-48f4-a81b-1af38a9b3a3b" />
+    <UnitTestResult executionId="075315e5-5025-487b-8aec-d9c750dd2e69" testId="89a7fdea-984d-4c70-935a-ca6f294e94ba" testName="CreateAccountWithInvalidOverdraftLimit" computerName="TU-3P78063" duration="00:00:00.0013126" startTime="2022-09-21T19:10:36.3132582+01:00" endTime="2022-09-21T19:10:36.3146743+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="075315e5-5025-487b-8aec-d9c750dd2e69" />
+    <UnitTestResult executionId="f45fd130-e0a9-4296-9b82-ee0d21b980a2" testId="59546573-1391-4e24-8546-5a072ab057df" testName="TestDepositAndWithdrawal2" computerName="TU-3P78063" duration="00:00:00.0001061" startTime="2022-09-21T19:10:36.3148990+01:00" endTime="2022-09-21T19:10:36.3150421+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f45fd130-e0a9-4296-9b82-ee0d21b980a2" />
+    <UnitTestResult executionId="a8ab2981-dbcf-4024-bb1f-130c64a0452e" testId="18c1ad20-283c-42e2-a5b5-5705a236f80f" testName="TestDepositAndWithdrawal1" computerName="TU-3P78063" duration="00:00:00.0001354" startTime="2022-09-21T19:10:36.3147051+01:00" endTime="2022-09-21T19:10:36.3148851+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8ab2981-dbcf-4024-bb1f-130c64a0452e" />
+    <UnitTestResult executionId="20c80daf-02d6-4bc6-983b-ca4afb7915c5" testId="99342ffd-31d8-4d81-92c7-82e01e70d9b0" testName="TestDepositAndWithdrawal4" computerName="TU-3P78063" duration="00:00:00.0002611" startTime="2022-09-21T19:10:36.3154160+01:00" endTime="2022-09-21T19:10:36.3158142+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20c80daf-02d6-4bc6-983b-ca4afb7915c5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestDeposit1" storage="c:\gc\bank ci 2022\bankunittestproject\bin\debug\net6.0\bankunittestproject.dll" id="441bc83d-0edb-446a-b897-c38c87f33a16">
+      <Execution id="e5972215-7b24-48f4-a81b-1af38a9b3a3b" />
+      <TestMethod codeBase="C:\GC\Bank CI 2022\BankUnitTestProject\bin\Debug\net6.0\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDeposit1" />
+    </UnitTest>
+    <UnitTest name="CreateAccountWithInvalidOverdraftLimit" storage="c:\gc\bank ci 2022\bankunittestproject\bin\debug\net6.0\bankunittestproject.dll" id="89a7fdea-984d-4c70-935a-ca6f294e94ba">
+      <Execution id="075315e5-5025-487b-8aec-d9c750dd2e69" />
+      <TestMethod codeBase="C:\GC\Bank CI 2022\BankUnitTestProject\bin\Debug\net6.0\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="CreateAccountWithInvalidOverdraftLimit" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal3" storage="c:\gc\bank ci 2022\bankunittestproject\bin\debug\net6.0\bankunittestproject.dll" id="88258410-e682-4e09-b089-cccc51a8a7cf">
+      <Execution id="a8bcb630-5bf6-49ce-bec6-f1103bddbd82" />
+      <TestMethod codeBase="C:\GC\Bank CI 2022\BankUnitTestProject\bin\Debug\net6.0\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal3" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal2" storage="c:\gc\bank ci 2022\bankunittestproject\bin\debug\net6.0\bankunittestproject.dll" id="59546573-1391-4e24-8546-5a072ab057df">
+      <Execution id="f45fd130-e0a9-4296-9b82-ee0d21b980a2" />
+      <TestMethod codeBase="C:\GC\Bank CI 2022\BankUnitTestProject\bin\Debug\net6.0\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal2" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal4" storage="c:\gc\bank ci 2022\bankunittestproject\bin\debug\net6.0\bankunittestproject.dll" id="99342ffd-31d8-4d81-92c7-82e01e70d9b0">
+      <Execution id="20c80daf-02d6-4bc6-983b-ca4afb7915c5" />
+      <TestMethod codeBase="C:\GC\Bank CI 2022\BankUnitTestProject\bin\Debug\net6.0\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal4" />
+    </UnitTest>
+    <UnitTest name="TestDepositAndWithdrawal1" storage="c:\gc\bank ci 2022\bankunittestproject\bin\debug\net6.0\bankunittestproject.dll" id="18c1ad20-283c-42e2-a5b5-5705a236f80f">
+      <Execution id="a8ab2981-dbcf-4024-bb1f-130c64a0452e" />
+      <TestMethod codeBase="C:\GC\Bank CI 2022\BankUnitTestProject\bin\Debug\net6.0\BankUnitTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="BankUnitTestProject.UnitTest1" name="TestDepositAndWithdrawal1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="88258410-e682-4e09-b089-cccc51a8a7cf" executionId="a8bcb630-5bf6-49ce-bec6-f1103bddbd82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="441bc83d-0edb-446a-b897-c38c87f33a16" executionId="e5972215-7b24-48f4-a81b-1af38a9b3a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89a7fdea-984d-4c70-935a-ca6f294e94ba" executionId="075315e5-5025-487b-8aec-d9c750dd2e69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59546573-1391-4e24-8546-5a072ab057df" executionId="f45fd130-e0a9-4296-9b82-ee0d21b980a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18c1ad20-283c-42e2-a5b5-5705a236f80f" executionId="a8ab2981-dbcf-4024-bb1f-130c64a0452e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99342ffd-31d8-4d81-92c7-82e01e70d9b0" executionId="20c80daf-02d6-4bc6-983b-ca4afb7915c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

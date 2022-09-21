@@ -1,0 +1,54 @@
+name: build and package
+
+on:
+  workflow_dispatch:                                # manually triggered
+
+jobs:
+  build_package:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.x
+
+    - name: Install dependencies
+      run: dotnet restore
+
+    - name: Build for release
+      run: dotnet build Bank/Bank.csproj --configuration Release --no-restore 
+
+    - name: Sonarscanner for dotnet
+      uses: Secbyte/dotnet-sonarscanner@v2.3
+      with:
+        buildCommand: dotnet build .
+        projectKey: Bank_CI_GA
+        projectName: Bank_CI_GA
+        sonarOrganisation: sonarcloudorg-gc
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # run standard unit tests
+    - name: Run Unit Tests
+      run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj  --verbosity normal -l:trx
+
+    # run Specflow+ tests
+    - name: Run Acceptance Tests 
+      run: dotnet test BankAcceptanceTest/BankAcceptanceTest.csproj  --verbosity normal -l:trx
+
+    # create NuGet package
+    - name: Package for NuGet
+      run: dotnet pack Bank/Bank.csproj /p:PackageVersion=1.0.0 --configuration Release --output .
+
+    # upload NuGet Package
+    - name: Upload Nuget package as artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: NuGet package
+        path: ./*.nupkg
