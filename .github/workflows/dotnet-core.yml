@@ -23,17 +23,7 @@ jobs:
     - name: Build for release
       run: dotnet build Bank/Bank.csproj --configuration Release --no-restore 
 
-  #  - name: Sonarscanner for dotnet
-  #   uses: Secbyte/dotnet-sonarscanner@v2.3
-  #    with:
-  #      buildCommand: dotnet build Bank/.
-  #      projectKey: gclynch_bankCI2022
-  #      projectName: gclynch_bankCI2022
-  #      sonarOrganisation: gclynch
-  #    env:
-  #      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-  #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+ 
     - name: Analyze code with SonarCloud
       uses: sonarsource/sonarcloud-github-action@master
       with:
