@@ -34,6 +34,20 @@ jobs:
   #      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Analyze code with SonarCloud
+      uses: sonarsource/sonarcloud-github-action@master
+      with:
+        projectBaseDir: Bank
+        args: >
+          -Dsonar.organization=gclynch
+          -Dsonar.projectKey=gclynch_bankCI2022
+          -Dsonar.python.coverage.reportPaths=coverage.xml
+          -Dsonar.sources=Bank/
+          -Dsonar.verbose=true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
     # run standard unit tests
     - name: Run Unit Tests
       run: dotnet test BankUnitTestProject/BankUnitTestProject.csproj  --verbosity normal -l:trx
