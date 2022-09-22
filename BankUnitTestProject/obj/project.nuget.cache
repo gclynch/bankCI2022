@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N2OaQ8gNGrpy6K+u8DsLxMANDncg+5yNCunKE0ttCQXzTA6phQSOmG0A+Ep9xRQ0iDmOAK2yYRM/a+hRe8fRrA==",
+  "dgSpecHash": "tLxulBmrpoujvjr5fkG1sq37Ofv+LSVVCn3ogb9nG2NZqa9ivdSao3PTGGt6mSy56w+CMdxyIvdKuAwBC8Ofqg==",
   "success": true,
-  "projectFilePath": "C:\\GC\\Bank CI 2022\\BankUnitTestProject\\BankUnitTestProject.csproj",
+  "projectFilePath": "C:\\GC\\bankCI 2022\\BankUnitTestProject\\BankUnitTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gclynch\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\gclynch\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

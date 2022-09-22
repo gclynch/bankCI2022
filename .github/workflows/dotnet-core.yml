@@ -18,7 +18,7 @@ jobs:
         dotnet-version: 6.0.x
 
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore Bank/
 
     - name: Build for release
       run: dotnet build Bank/Bank.csproj --configuration Release --no-restore 

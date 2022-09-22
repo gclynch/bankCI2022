@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GC\\Bank CI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {}
+    "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {}
   },
   "projects": {
-    "C:\\GC\\Bank CI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {
+    "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\Bank CI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+        "projectUniqueName": "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
         "projectName": "BankAcceptanceTest",
-        "projectPath": "C:\\GC\\Bank CI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+        "projectPath": "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
         "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\Bank CI 2022\\BankAcceptanceTest\\obj\\",
+        "outputPath": "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj": {
-                "projectPath": "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj"
+              "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj": {
+                "projectPath": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj": {
+    "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj",
+        "projectUniqueName": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj",
         "projectName": "Bank",
-        "projectPath": "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj",
+        "projectPath": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj",
         "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\Bank CI 2022\\Bank\\obj\\",
+        "outputPath": "C:\\GC\\bankCI 2022\\Bank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",

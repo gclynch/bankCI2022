@@ -6357,11 +6357,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GC\\Bank CI 2022\\BankUnitTestProject\\BankUnitTestProject.csproj",
+      "projectUniqueName": "C:\\GC\\bankCI 2022\\BankUnitTestProject\\BankUnitTestProject.csproj",
       "projectName": "BankUnitTestProject",
-      "projectPath": "C:\\GC\\Bank CI 2022\\BankUnitTestProject\\BankUnitTestProject.csproj",
+      "projectPath": "C:\\GC\\bankCI 2022\\BankUnitTestProject\\BankUnitTestProject.csproj",
       "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-      "outputPath": "C:\\GC\\Bank CI 2022\\BankUnitTestProject\\obj\\",
+      "outputPath": "C:\\GC\\bankCI 2022\\BankUnitTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6378,8 +6378,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj": {
-              "projectPath": "C:\\GC\\Bank CI 2022\\Bank\\Bank.csproj"
+            "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj": {
+              "projectPath": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj"
             }
           }
         }
