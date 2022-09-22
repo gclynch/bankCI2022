@@ -42,7 +42,6 @@ jobs:
           -Dsonar.organization=gclynch
           -Dsonar.projectKey=gclynch_bankCI2022
           -Dsonar.python.coverage.reportPaths=coverage.xml
-          -Dsonar.sources=Bank/
           -Dsonar.verbose=true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
