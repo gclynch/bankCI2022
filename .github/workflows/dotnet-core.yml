@@ -26,10 +26,10 @@ jobs:
     - name: Sonarscanner for dotnet
       uses: Secbyte/dotnet-sonarscanner@v2.3
       with:
-        buildCommand: dotnet build .
-        projectKey: Bank_CI_GA
-        projectName: Bank_CI_GA
-        sonarOrganisation: sonarcloudorg-gc
+        buildCommand: dotnet build Bank/.
+        projectKey: gclynch_bankCI2022
+        projectName: gclynch_bankCI2022
+        sonarOrganisation: gclynch
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
