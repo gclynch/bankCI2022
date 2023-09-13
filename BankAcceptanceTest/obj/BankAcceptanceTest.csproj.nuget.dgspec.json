@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {}
+    "C:\\GC\\csd\\bankCI 2023\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {}
   },
   "projects": {
-    "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {
+    "C:\\GC\\csd\\bankCI 2023\\BankAcceptanceTest\\BankAcceptanceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+        "projectUniqueName": "C:\\GC\\csd\\bankCI 2023\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
         "projectName": "BankAcceptanceTest",
-        "projectPath": "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
+        "projectPath": "C:\\GC\\csd\\bankCI 2023\\BankAcceptanceTest\\BankAcceptanceTest.csproj",
         "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\bankCI 2022\\BankAcceptanceTest\\obj\\",
+        "outputPath": "C:\\GC\\csd\\bankCI 2023\\BankAcceptanceTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj": {
-                "projectPath": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj"
+              "C:\\GC\\csd\\bankCI 2023\\Bank\\Bank.csproj": {
+                "projectPath": "C:\\GC\\csd\\bankCI 2023\\Bank\\Bank.csproj"
               }
             }
           }
@@ -46,15 +46,15 @@
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
-              "version": "[6.7.0, )"
+              "version": "[6.12.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.1, )"
+              "version": "[17.7.2, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[4.5.0, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
@@ -85,18 +85,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj": {
+    "C:\\GC\\csd\\bankCI 2023\\Bank\\Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj",
+        "projectUniqueName": "C:\\GC\\csd\\bankCI 2023\\Bank\\Bank.csproj",
         "projectName": "Bank",
-        "projectPath": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj",
+        "projectPath": "C:\\GC\\csd\\bankCI 2023\\Bank\\Bank.csproj",
         "packagesPath": "C:\\Users\\gclynch\\.nuget\\packages\\",
-        "outputPath": "C:\\GC\\bankCI 2022\\Bank\\obj\\",
+        "outputPath": "C:\\GC\\csd\\bankCI 2023\\Bank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gclynch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

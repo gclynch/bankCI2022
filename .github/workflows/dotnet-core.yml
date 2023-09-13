@@ -24,7 +24,7 @@ jobs:
       run: dotnet build Bank/Bank.csproj --configuration Release --no-restore 
 
  
-    # run sonar cloud analyis (report in https://sonarcloud.io/project/overview?id=Bank_CI_GA)
+    # run sonar cloud analyis (report in https://sonarcloud.io/project/information?id=gclynch_bankCI2022)
     # define SONAR_TOKEN secret to match project token
     - name: Analyze code with SonarCloud
       uses: sonarsource/sonarcloud-github-action@master

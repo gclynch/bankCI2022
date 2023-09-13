@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PF/6ScCbjfnngyxhEINrvZIqFPvldyV3GxbzfVOh+1fq1kuvS6gjAP/iLpSgfMkGS8gYQRG1DfOijVz2v/fiYQ==",
+  "dgSpecHash": "VUPwJ2GiioFvcCbm6vogI8x2eXM2RlVno0EhDTi8S47tcGiiy/NmEcN5x+7sxM4LEvscLIvoLHplb3WTS205Lw==",
   "success": true,
-  "projectFilePath": "C:\\GC\\bankCI 2022\\Bank\\Bank.csproj",
+  "projectFilePath": "C:\\GC\\csd\\bankCI 2023\\Bank\\Bank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
