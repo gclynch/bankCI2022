@@ -8,12 +8,12 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 0
 
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
 
@@ -24,6 +24,8 @@ jobs:
       run: dotnet build Bank/Bank.csproj --configuration Release --no-restore 
 
  
+    # run sonar cloud analyis (report in https://sonarcloud.io/project/overview?id=Bank_CI_GA)
+    # define SONAR_TOKEN secret to match project token
     - name: Analyze code with SonarCloud
       uses: sonarsource/sonarcloud-github-action@master
       with:
@@ -51,7 +53,7 @@ jobs:
 
     # upload NuGet Package
     - name: Upload Nuget package as artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: NuGet package
         path: ./*.nupkg
