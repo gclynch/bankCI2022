@@ -2,19 +2,18 @@
 // Unit tests (MSTest) and
 // Specflow acceptance tests in a separate test project
 
-using System;
 
 namespace Bank
 {
     // a simple euro current bank account
-    public class CurrentAccount
+    public class CurrentAccount 
     {
-        private double balance;                             // the account balance
-        private double overdraftLimit;
+        double balance;                             // the account balance
+        double overdraftLimit;
 
         // + account number etc.
 
-        // construct a bank acocunt with specified opening balance
+        // construct a bank account with specified opening balance
         public CurrentAccount(double openingbalance)
         {
             if (openingbalance >= 0)
