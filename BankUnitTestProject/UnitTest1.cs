@@ -16,10 +16,10 @@ namespace BankUnitTestProject
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]           // should throw an ArgumentException (or subclass) otherwise test fails
+        //[ExpectedException(typeof(ArgumentException))]           // should throw an ArgumentException (or subclass) otherwise test fails
         public void CreateAccountWithInvalidOverdraftLimit()
         {
-            CurrentAccount acc = new CurrentAccount(-5000);
+            Assert.ThrowsException<ArgumentException>(() => new CurrentAccount(-5000));
         }
 
         [TestMethod]
@@ -43,20 +43,18 @@ namespace BankUnitTestProject
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestDepositAndWithdrawal3()
         {
             CurrentAccount acc = new CurrentAccount();
-            acc.Deposit(-100);                                  // must be positive
+            Assert.ThrowsException<ArgumentException>(() => acc.Deposit(-100));     // must be positive
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentException))]
         public void TestDepositAndWithdrawal4()
         {
             CurrentAccount acc = new CurrentAccount();
-            acc.Deposit(100);
-            acc.Withdraw(0);                                    // must be positive
+            acc.Deposit(100);                                  
+            Assert.ThrowsException<ArgumentException>(() => acc.Withdraw(0));     // must be positive
         }
     }
 }

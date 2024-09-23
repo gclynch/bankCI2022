@@ -989,7 +989,10 @@
       },
       "Bank/1.0.0": {
         "runtime": {
-          "Bank.dll": {}
+          "Bank.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
