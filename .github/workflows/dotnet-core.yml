@@ -29,7 +29,6 @@ jobs:
     - name: Analyze code with SonarCloud
       uses: sonarsource/sonarcloud-github-action@master
       with:
-        projectBaseDir: .
         args: >
           -Dsonar.organization=gclynch
           -Dsonar.projectKey=gclynch_bankCI2022
