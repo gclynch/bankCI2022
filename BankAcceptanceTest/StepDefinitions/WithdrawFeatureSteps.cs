@@ -1,5 +1,6 @@
 using Bank;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using TechTalk.SpecFlow;
 
 
@@ -36,7 +37,7 @@ namespace BankAcceptanceTest
         [Then(@"the balance on the account should be (.*)")]
         public void ThenTheBalanceOnTheAccountShouldBe(double newBalance)
         {
-            Assert.AreEqual(account.Balance, newBalance);
+            ClassicAssert.AreEqual(account.Balance, newBalance);
         }
     }
 }
