@@ -27,7 +27,7 @@ jobs:
     # run sonar cloud analyis (report in https://sonarcloud.io/project/information?id=gclynch_bankCI2022)
     # define SONAR_TOKEN secret to match project token
     - name: Analyze code with SonarCloud
-      uses: SonarSource/sonarqube-scan-action@<v4.1.0>
+      uses: SonarSource/sonarqube-scan-action@v4.1.0
       with:
         args: >
           -Dsonar.organization=gclynch
