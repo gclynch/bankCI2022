@@ -16,7 +16,6 @@ namespace BankUnitTestProject
         }
 
         [TestMethod]
-        //[ExpectedException(typeof(ArgumentException))]           // should throw an ArgumentException (or subclass) otherwise test fails
         public void CreateAccountWithInvalidOverdraftLimit()
         {
             Assert.ThrowsException<ArgumentException>(() => new CurrentAccount(-5000));
